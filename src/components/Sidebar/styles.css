@@ -1,0 +1,15 @@
+.sidebar-btn-primary {
+    @apply w-full bg-blue-500 font-bold text-white rounded-md py-2 px-4
+}
+
+.sidebar-btn-primary:hover {
+    @apply bg-blue-600
+}
+
+.sidebar-btn-secondary {
+    @apply w-full text-left font-bold text-gray-600 rounded-md p-2
+}
+
+.sidebar-btn-secondary:hover {
+    @apply bg-gray-300 text-gray-600
+}
