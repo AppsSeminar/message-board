@@ -1,7 +1,6 @@
 import threads from "../../../data/threads.json";
 export const CreateTagArea = () => {
-  //TODO localstorageからタグ一覧をとってくる
-  console.log(threads);
+  //localstorageからタグ一覧をとってくる
   let tags = [];
 
   threads.map((thread) => {
@@ -12,11 +11,23 @@ export const CreateTagArea = () => {
   let tags_set = new Set(tags);
 
   // 排除後、配列に戻す
-  tags = Array.from(tags_set)
+  tags = Array.from(tags_set);
 
   console.log(tags);
 
-  //TODO カラーをランダムにする
+  //カラーをランダムにする
+  const tagColors = [
+    "bg-blue-100",
+    "bg-green-100",
+    "bg-red-100",
+    "bg-grey-100",
+    "bg-purple-100",
+    "bg-pink-100",
+    "bg-yellow-100",
+    "bg-orange-100",
+  ];
+
+  const colorRandom = Math.floor(Math.random() * tagColors.length);
 
   //TODO 新規でタグを作る
 
