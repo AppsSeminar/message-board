@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ThreadListItem = ({ thread }) => {
+  console.log(thread);
+
   return (
     <li key={thread.id} className="border-b border-gray-200 p-4">
 

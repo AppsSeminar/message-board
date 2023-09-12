@@ -8,6 +8,7 @@ const CreateTheread = () => {
   const navigate = useNavigate();
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
+  const [tags, setTagsForParent] = useState([]);
 
   const handleTitleChange = (e) => {
     setTitle(e.target.value);
@@ -22,7 +23,7 @@ const CreateTheread = () => {
       id: threads.length + 1,
       title: title,
       content: content,
-      tags: [],
+      tags: tags,
       createdAt: new Date().toISOString().slice(0, 10),
       upvotes: 0,
     };
@@ -71,7 +72,7 @@ const CreateTheread = () => {
           </div>
         </div>
         {/* Tag selecter */}
-        <CreateTagArea />
+        <CreateTagArea setTagsForParent={setTagsForParent} />
 
         {/* Control btn */}
         <div className='flex flex-row justify-end space-x-4'>
