@@ -2,15 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .tag {
+    @apply py-1 px-4 inline-flex rounded-full font-semibold bg-blue-100;
+  }
+}
 
 .btn-primary {
-    @apply py-2 px-4 font-semibold rounded-md gap-2 bg-blue-500 text-gray-100
+  @apply py-2 px-4 font-semibold rounded-md gap-2 bg-blue-500 text-gray-100;
 }
 
 .btn-primary:hover {
-    @apply bg-blue-600
+  @apply bg-blue-600;
 }
 
 .page-title {
-    @apply text-lg font-bold text-gray-600
+  @apply text-lg font-bold text-gray-600;
 }
