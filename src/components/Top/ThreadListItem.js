@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ThreadListItem = ({ thread }) => {
   return (
-    <li key={thread.id} className="border-b border-gray-200 p-4">
+    <li key={thread.ThreadId} className="border-b border-gray-200 p-4">
 
       {/* Tags list */}
       <div className="flex flex-row space-x-2 items-center mb-2">
@@ -15,13 +15,10 @@ const ThreadListItem = ({ thread }) => {
       {/* Title, CreatedAt */}
       <div className='flex flex-row space-x-8 mb-2 items-center'>
         <h3 className="text-lg font-bold">
-          <Link to={`/threads/${thread.id}`}>{thread.title}</Link>
+          <Link to={`/threads/${thread.threadId}`}>{thread.title}</Link>
         </h3>
         <div className="text-sm text-gray-400">{thread.createdAt}</div>
       </div>
-
-      {/* Content */}
-      <p className="text-sm mb-2">{thread.content}</p>
 
       {/* Upvote */}
       <div className="flex-shrink-0 flex">

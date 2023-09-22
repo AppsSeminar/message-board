@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Top from "./components/Top/Top";
-import ThreadDetail from "./components/ThreadDetail";
+import ThreadDetail from "./components/ThreadDetail/ThreadDetail";
 import CreateThread from "./components/CreateTheread/CreateThread";
 import ContentsArea from "./components/ContentsArea";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";

@@ -1,13 +1,6 @@
 [
     {
         "threadId": 1,
-        "title": "iPhone 15 Pro買ったやつこい！",
-        "tags": [
-            "gadget"
-        ],
-        "createdAt": "2023/05/01 12:00:00",
-        "authorId": "user-asdfasdf1234",
-        "upvotes": 10,
         "comments": [
             {
                 "resId": 1,
@@ -42,28 +35,5 @@
                 "comment": "青にしようや"
             }
         ]
-    },
-    {
-        "threadId": 2,
-        "title": "【悲報】テストスレ第2",
-        "tags": [
-            "tag1",
-            "tag2"
-        ],
-        "createdAt": "2023/05/02 03:00:00",
-        "authorId": "user-asdfasdf1234",
-        "upvotes": 12
-    },
-    {
-        "threadId": 3,
-        "title": "【速報】てすとスレ3rd",
-        "tags": [
-            "tag1",
-            "tag2",
-            "tag3"
-        ],
-        "createdAt": "2023/05/03 14:00:00",
-        "authorId": "user-asdfasdf1234",
-        "upvotes": 13
     }
 ]
