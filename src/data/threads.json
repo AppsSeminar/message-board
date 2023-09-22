@@ -3,7 +3,8 @@
         "threadId": 1,
         "title": "iPhone 15 Pro買ったやつこい！",
         "tags": [
-            "gadget"
+            "gadget",
+            "iphone15"
         ],
         "createdAt": "2023/05/01 12:00:00",
         "authorId": "user-asdfasdf1234",
@@ -12,58 +13,109 @@
             {
                 "resId": 1,
                 "anchor": null,
-                "createdAt": "2023/05/01 12:00:00",
+                "postedAt": "2023/05/01 12:00:00",
                 "userId": "user-asdfasdf1234",
-                "upvote": 12,
-                "comment": "何色買った?"
+                "upvotes": 0,
+                "content": "何色買った?"
             },
             {
                 "resId": 2,
-                "anchor": 1,
-                "createdAt": "2023/05/01 12:12:21",
+                "anchor": null,
+                "postedAt": "2023/05/01 12:12:21",
                 "userId": "user-aasfasdd3645",
-                "upvote": 1,
-                "comment": "青"
+                "upvotes": 12,
+                "content": "青"
             },
             {
                 "resId": 3,
-                "anchor": 1,
-                "createdAt": "2023/05/01 12:15:32",
+                "anchor": null,
+                "postedAt": "2023/05/01 12:15:32",
                 "userId": "user-aasfasdd3645",
-                "upvote": 1,
-                "comment": "無難に黒やケース付けてもカメラの部分見えるからな/n今日届く予定やで"
+                "upvotes": 1,
+                "content": "無難に黒やケース付けてもカメラの部分見えるからな\n今日届く予定やで"
             },
             {
                 "resId": 4,
                 "anchor": 3,
-                "createdAt": "2023/05/01 12:23:32",
+                "postedAt": "2023/05/01 12:23:32",
                 "userId": "user-fdsasdfs4567",
-                "upvote": 1,
-                "comment": "青にしようや"
+                "upvotes": 8,
+                "content": "青にしようや"
             }
         ]
     },
     {
         "threadId": 2,
-        "title": "【悲報】テストスレ第2",
+        "title": "【朗報】Markdownかけるってマジ?",
         "tags": [
-            "tag1",
-            "tag2"
+            "markdown",
+            "test"
         ],
         "createdAt": "2023/05/02 03:00:00",
         "authorId": "user-asdfasdf1234",
-        "upvotes": 12
+        "upvotes": 12,
+        "comments": [
+            {
+                "resId": 1,
+                "anchor": null,
+                "postedAt": "2023/05/02 03:00:00",
+                "userId": "user-asdfasdf1234",
+                "upvotes": 0,
+                "content": "# Header1\n## Header2\n- item1\n- item2\n\n`inline code`\n```\nthis is code block\n```"
+            },
+            {
+                "resId": 2,
+                "anchor": 1,
+                "postedAt": "2023/05/02 03:00:00",
+                "userId": "user-asdfasdf1234",
+                "upvotes": 0,
+                "content": "なんか微妙やん"
+            }
+        ]
     },
     {
         "threadId": 3,
-        "title": "【速報】てすとスレ3rd",
+        "title": "【朗報】Amazonのあの超特大セール、始まってしまう",
         "tags": [
-            "tag1",
-            "tag2",
-            "tag3"
+            "Amazon",
+            "サービス"
         ],
         "createdAt": "2023/05/03 14:00:00",
         "authorId": "user-asdfasdf1234",
-        "upvotes": 13
+        "upvotes": 52,
+        "comments": [
+            {
+                "resId": 1,
+                "anchor": null,
+                "postedAt": "2023/05/03 14:00:00",
+                "userId": "user-asdfasdf1234",
+                "upvotes": 0,
+                "content": "うおおおおおおおおおおおおおおおおおおおおおおおおおおおお！！！！！！"
+            },
+            {
+                "resId": 2,
+                "anchor": null,
+                "postedAt": "2023/05/03 14:00:00",
+                "userId": "user-asdfasdf1234",
+                "upvotes": 0,
+                "content": "タイムセール祭りだああああああああああ！！！！"
+            },
+            {
+                "resId": 3,
+                "anchor": null,
+                "postedAt": "2023/05/03 14:00:00",
+                "userId": "user-asdfasdf1234",
+                "upvotes": 0,
+                "content": "なんj民に一番不要なセールやんな"
+            },
+            {
+                "resId": 4,
+                "anchor": 3,
+                "postedAt": "2023/05/03 14:00:00",
+                "userId": "user-asdfasdf1234",
+                "upvotes": 0,
+                "content": "裸の引きこもりやからなあ"
+            }
+        ]
     }
 ]

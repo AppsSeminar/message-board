@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { HiArrowUp } from "react-icons/hi";
 
 const ThreadListItem = ({ thread }) => {
   console.log(thread);
@@ -26,9 +27,7 @@ const ThreadListItem = ({ thread }) => {
       <div className="flex-shrink-0 flex">
         <div className="relative inline-flex space-x-2 items-center text-gray-500">
           <button className="rounded hover:text-gray-600" >
-            <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" >
-              <path fillRule="evenodd" d="M9.293 3.293a1 1 0 011.414 0l5 5a1 1 0 01-1.414 1.414L11 6.414V15a1 1 0 01-2 0V6.414L5.707 9.707a1 1 0 01-1.414-1.414l5-5z" clipRule="evenodd" />
-            </svg>
+            <HiArrowUp className="h-5 w-5" />
           </button>
           <span>{thread.upvotes}</span>
         </div>
