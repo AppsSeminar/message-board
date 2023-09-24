@@ -3,7 +3,7 @@ import { HiArrowSmUp } from "react-icons/hi";
 
 const CommentList = ({ comments }) => {
   return (
-    <div className="bg-white rounded-md p-4 mb-4">
+    <div className="bg-white rounded-md p-4">
       {comments.map((comment) => (
         <div key={comment.resId} className="border-b pb-4 mb-4">
           {/* Info */}

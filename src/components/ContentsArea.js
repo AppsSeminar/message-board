@@ -1,9 +1,9 @@
 const ContentArea = ({ children }) => {
-    return (
-        <main className="bg-gray-100 flex-1">
-            {children}
-        </main>
-    );
+  return (
+    <main className="flex flex-1 bg-gray-100 overflow-y-auto">
+      {children}
+    </main>
+  );
 };
 
 export default ContentArea;

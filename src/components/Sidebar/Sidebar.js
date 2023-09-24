@@ -13,15 +13,14 @@ const Sidebar = () => {
   ];
 
   return (
-    <aside className="bg-gray-200 p-4 w-1/6 flex flex-col justify-between">
+    <aside className="flex flex-col h-full p-4 w-64 bg-gray-200 justify-between">
       <div>
-        {/* Create thread */}
+        {/* Create thread button */}
         <Link to="/create-thread">
           <button className="btn-primary w-full mb-4">
             スレッドを立てる
           </button>
         </Link>
-
         {/* Sidebar menu */}
         <ul className="space-y-2">
           {sidebarMenuItems.map((item, index) => (
@@ -31,9 +30,8 @@ const Sidebar = () => {
           ))}
         </ul>
       </div>
-
       {/* Copyright */}
-      <div className="py-4 px-2 text-sm text-gray-500">
+      <div className="py-4 px-2 text-sm text-gray-400">
         Copyright &copy; 2023
       </div>
     </aside>
