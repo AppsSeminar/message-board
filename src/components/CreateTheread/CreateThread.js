@@ -20,18 +20,27 @@ const CreateTheread = () => {
 
   const handleCreateThread = () => {
     const newThread = {
-      id: threads.length + 1,
+      threadId: threads.length + 1,
+      authorId: "user-asdfasdf1234",
       title: title,
-      content: content,
       tags: tags,
       createdAt: new Date().toISOString().slice(0, 10),
       upvotes: 0,
+      comments: [
+        {
+          resId: 1,
+          anchor: null,
+          createdAt: new Date().toISOString().slice(0, 10),
+          userId: "user-asdfasdf1234",
+          comment: content
+        }
+      ]
     };
 
     threads.push(newThread);
     saveThreadsTofile(threads);
 
-    navigate(`/threads/${newThread.id}`);
+    navigate(`/threads/${newThread.threadId}`);
   };
 
   return (
@@ -41,7 +50,7 @@ const CreateTheread = () => {
       {/* Form */}
       <div className='bg-white rounded-md p-4'>
         {/* User id */}
-        <div className='text-gray-400 mb-4'>user: asdfASDF12341234</div>
+        <div className='text-gray-400 mb-4'>user: user-asdfasdf1234</div>
         {/* Text Area */}
         <div className='w-full border border-gray-300 rounded-lg p-2 mb-4'>
           <input

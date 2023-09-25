@@ -7,7 +7,7 @@ const ThreadList = () => {
         <div className="bg-white rounded-md p-4">
             <ul>
                 {threads.map(thread => (
-                    <ThreadListItem key={thread.id} thread={thread} />
+                    <ThreadListItem key={thread.threadId} thread={thread} />
                 ))}
             </ul>
         </div>

@@ -3,12 +3,12 @@ import Tabbar from './Tabbar/Tabbar';
 import ThreadList from "./ThreadList";
 
 const Top = () => {
-    return (
-        <div className="p-4">
-            <Tabbar />
-            <ThreadList />
-        </div>
-    )
+  return (
+    <div className="flex flex-col flex-1 p-4">
+      <Tabbar />
+      <ThreadList />
+    </div>
+  )
 }
 
 export default Top;
